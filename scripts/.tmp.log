@@ -1,0 +1,121 @@
+
+start time:2023-03-13 22:10:21
+iter 1 completed         2023-03-13 22:10:42
+iter 2 completed         2023-03-13 22:10:50
+iter 3 completed         2023-03-13 22:10:57
+iter 4 completed         2023-03-13 22:11:04
+iter 5 completed         2023-03-13 22:11:11
+iter 6 completed         2023-03-13 22:11:18
+iter 7 completed         2023-03-13 22:11:25
+iter 8 completed         2023-03-13 22:11:33
+iter 9 completed         2023-03-13 22:11:40
+iter 10 completed         2023-03-13 22:11:47
+iter 11 completed         2023-03-13 22:11:54
+iter 12 completed         2023-03-13 22:12:02
+iter 13 completed         2023-03-13 22:12:09
+iter 14 completed         2023-03-13 22:12:16
+iter 15 completed         2023-03-13 22:12:23
+iter 16 completed         2023-03-13 22:12:30
+iter 17 completed         2023-03-13 22:12:37
+iter 18 completed         2023-03-13 22:12:45
+iter 19 completed         2023-03-13 22:12:59
+iter 20 completed         2023-03-13 22:13:06
+iter 21 completed         2023-03-13 22:13:13
+iter 22 completed         2023-03-13 22:13:20
+iter 23 completed         2023-03-13 22:13:27
+iter 24 completed         2023-03-13 22:13:34
+iter 25 completed         2023-03-13 22:13:41
+iter 26 completed         2023-03-13 22:13:48
+iter 27 completed         2023-03-13 22:13:56
+iter 28 completed         2023-03-13 22:14:03
+iter 29 completed         2023-03-13 22:14:10
+iter 30 completed         2023-03-13 22:14:17
+ This problem is unconstrained.
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =         4225     M =           10
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  1.60812D+00    |proj g|=  3.72128D-01
+
+At iterate    1    f=  5.65272D-01    |proj g|=  1.81213D-01
+
+At iterate    2    f=  2.77683D-01    |proj g|=  1.34476D-01
+
+At iterate    3    f=  2.06701D-02    |proj g|=  3.14805D-02
+
+At iterate    4    f=  5.27892D-03    |proj g|=  1.27875D-02
+
+At iterate    5    f=  7.84905D-04    |proj g|=  3.37760D-03
+
+At iterate    6    f=  1.58969D-04    |proj g|=  1.52960D-03
+
+At iterate    7    f=  1.64659D-05    |proj g|=  3.77826D-04
+
+At iterate    8    f=  7.00119D-06    |proj g|=  2.47174D-04
+
+At iterate    9    f=  5.67351D-06    |proj g|=  1.84428D-04
+
+At iterate   10    f=  3.63575D-06    |proj g|=  9.81525D-05
+
+At iterate   11    f=  2.58362D-06    |proj g|=  9.07631D-05
+
+At iterate   12    f=  1.83944D-06    |proj g|=  7.24102D-05
+
+At iterate   13    f=  1.54819D-06    |proj g|=  5.77683D-05
+
+At iterate   14    f=  1.42181D-06    |proj g|=  5.62497D-05
+
+At iterate   15    f=  1.32295D-06    |proj g|=  4.33538D-05
+
+At iterate   16    f=  1.16464D-06    |proj g|=  4.69831D-05
+
+At iterate   17    f=  1.05632D-06    |proj g|=  4.77860D-05
+
+At iterate   18    f=  8.88135D-07    |proj g|=  3.06467D-05
+
+At iterate   19    f=  8.20476D-07    |proj g|=  2.98603D-05
+
+At iterate   20    f=  7.62045D-07    |proj g|=  2.66073D-05
+
+At iterate   21    f=  6.90928D-07    |proj g|=  2.44487D-05
+
+At iterate   22    f=  6.28845D-07    |proj g|=  2.88018D-05
+
+At iterate   23    f=  5.58159D-07    |proj g|=  3.45855D-05
+
+At iterate   24    f=  4.80292D-07    |proj g|=  2.34344D-05
+
+At iterate   25    f=  4.49503D-07    |proj g|=  2.03523D-05
+
+At iterate   26    f=  4.00649D-07    |proj g|=  2.23206D-05
+
+At iterate   27    f=  3.70104D-07    |proj g|=  2.94516D-05
+
+At iterate   28    f=  3.42478D-07    |proj g|=  2.14452D-05
+
+At iterate   29    f=  3.04298D-07    |proj g|=  2.05059D-05
+
+At iterate   30    f=  2.60476D-07    |proj g|=  1.86602D-05
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+ 4225     30     33      1     0     0   1.866D-05   2.605D-07
+  F =   2.6047603622739360E-007
+
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT                 
