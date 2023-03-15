@@ -1,0 +1,181 @@
+
+start time:2023-03-15 11:07:06
+iter 1 completed         2023-03-15 11:07:17
+iter 2 completed         2023-03-15 11:07:23
+iter 3 completed         2023-03-15 11:07:28
+iter 4 completed         2023-03-15 11:07:33
+iter 5 completed         2023-03-15 11:07:38
+iter 6 completed         2023-03-15 11:07:43
+iter 7 completed         2023-03-15 11:07:48
+iter 8 completed         2023-03-15 11:07:54
+iter 9 completed         2023-03-15 11:08:00
+iter 10 completed         2023-03-15 11:08:05
+iter 11 completed         2023-03-15 11:08:11
+iter 12 completed         2023-03-15 11:08:22
+iter 13 completed         2023-03-15 11:08:29
+iter 14 completed         2023-03-15 11:08:34
+iter 15 completed         2023-03-15 11:08:39
+iter 16 completed         2023-03-15 11:08:44
+iter 17 completed         2023-03-15 11:08:50
+iter 18 completed         2023-03-15 11:08:55
+iter 19 completed         2023-03-15 11:09:00
+iter 20 completed         2023-03-15 11:09:06
+iter 21 completed         2023-03-15 11:09:16
+iter 22 completed         2023-03-15 11:09:22
+iter 23 completed         2023-03-15 11:09:27
+iter 24 completed         2023-03-15 11:09:32
+iter 25 completed         2023-03-15 11:09:38
+iter 26 completed         2023-03-15 11:09:43
+iter 27 completed         2023-03-15 11:09:48
+iter 28 completed         2023-03-15 11:09:54
+iter 29 completed         2023-03-15 11:09:58
+iter 30 completed         2023-03-15 11:10:03
+iter 31 completed         2023-03-15 11:10:08
+iter 32 completed         2023-03-15 11:10:14
+iter 33 completed         2023-03-15 11:10:19
+iter 34 completed         2023-03-15 11:10:24
+iter 35 completed         2023-03-15 11:10:30
+iter 36 completed         2023-03-15 11:10:35
+iter 37 completed         2023-03-15 11:10:41
+iter 38 completed         2023-03-15 11:10:46
+iter 39 completed         2023-03-15 11:10:53
+iter 40 completed         2023-03-15 11:10:58
+iter 41 completed         2023-03-15 11:11:09
+iter 42 completed         2023-03-15 11:11:16
+iter 43 completed         2023-03-15 11:11:22
+iter 44 completed         2023-03-15 11:11:28
+iter 45 completed         2023-03-15 11:11:32
+iter 46 completed         2023-03-15 11:11:43
+iter 47 completed         2023-03-15 11:11:49
+iter 48 completed         2023-03-15 11:11:54
+iter 49 completed         2023-03-15 11:12:00
+iter 50 completed         2023-03-15 11:12:05
+ This problem is unconstrained.
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =         4225     M =           10
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  2.42721D+00    |proj g|=  2.73118D-01
+
+At iterate    1    f=  1.87436D+00    |proj g|=  1.52170D-01
+
+At iterate    2    f=  7.65713D-01    |proj g|=  6.56363D-02
+
+At iterate    3    f=  6.79962D-01    |proj g|=  5.46156D-02
+
+At iterate    4    f=  5.96877D-01    |proj g|=  2.56983D-02
+
+At iterate    5    f=  5.80452D-01    |proj g|=  7.33270D-03
+
+At iterate    6    f=  5.78778D-01    |proj g|=  2.64771D-03
+
+At iterate    7    f=  5.78428D-01    |proj g|=  2.22110D-03
+
+At iterate    8    f=  5.78226D-01    |proj g|=  1.88648D-03
+
+At iterate    9    f=  5.78047D-01    |proj g|=  1.69561D-03
+
+At iterate   10    f=  5.77775D-01    |proj g|=  1.65908D-03
+
+At iterate   11    f=  5.77455D-01    |proj g|=  1.97670D-03
+
+At iterate   12    f=  5.77318D-01    |proj g|=  2.11201D-03
+
+At iterate   13    f=  5.77100D-01    |proj g|=  1.93397D-03
+
+At iterate   14    f=  5.76866D-01    |proj g|=  1.68966D-03
+
+At iterate   15    f=  5.76694D-01    |proj g|=  2.01286D-03
+
+At iterate   16    f=  5.76438D-01    |proj g|=  1.42054D-03
+
+At iterate   17    f=  5.76320D-01    |proj g|=  1.43376D-03
+
+At iterate   18    f=  5.76223D-01    |proj g|=  1.63697D-03
+
+At iterate   19    f=  5.76086D-01    |proj g|=  1.60437D-03
+
+At iterate   20    f=  5.75814D-01    |proj g|=  1.54884D-03
+
+At iterate   21    f=  5.75733D-01    |proj g|=  1.49177D-03
+
+At iterate   22    f=  5.75586D-01    |proj g|=  1.53593D-03
+
+At iterate   23    f=  5.75450D-01    |proj g|=  1.44026D-03
+
+At iterate   24    f=  5.75299D-01    |proj g|=  1.37410D-03
+
+At iterate   25    f=  5.75172D-01    |proj g|=  1.32842D-03
+
+At iterate   26    f=  5.75063D-01    |proj g|=  1.22311D-03
+
+At iterate   27    f=  5.74964D-01    |proj g|=  1.13743D-03
+
+At iterate   28    f=  5.74944D-01    |proj g|=  1.68297D-03
+
+At iterate   29    f=  5.74862D-01    |proj g|=  1.21677D-03
+
+At iterate   30    f=  5.74785D-01    |proj g|=  9.95015D-04
+
+At iterate   31    f=  5.74675D-01    |proj g|=  9.69881D-04
+
+At iterate   32    f=  5.74551D-01    |proj g|=  1.13662D-03
+
+At iterate   33    f=  5.74452D-01    |proj g|=  1.24974D-03
+
+At iterate   34    f=  5.74297D-01    |proj g|=  1.39378D-03
+
+At iterate   35    f=  5.74245D-01    |proj g|=  1.26424D-03
+
+At iterate   36    f=  5.74137D-01    |proj g|=  8.58007D-04
+
+At iterate   37    f=  5.74059D-01    |proj g|=  1.28239D-03
+
+At iterate   38    f=  5.73969D-01    |proj g|=  9.47288D-04
+
+At iterate   39    f=  5.73904D-01    |proj g|=  7.14548D-04
+
+At iterate   40    f=  5.73862D-01    |proj g|=  7.98224D-04
+
+At iterate   41    f=  5.73829D-01    |proj g|=  9.34759D-04
+
+At iterate   42    f=  5.73781D-01    |proj g|=  9.11466D-04
+
+At iterate   43    f=  5.73720D-01    |proj g|=  7.79667D-04
+
+At iterate   44    f=  5.73689D-01    |proj g|=  8.27463D-04
+
+At iterate   45    f=  5.73628D-01    |proj g|=  7.85454D-04
+
+At iterate   46    f=  5.73593D-01    |proj g|=  8.23276D-04
+
+At iterate   47    f=  5.73554D-01    |proj g|=  9.32864D-04
+
+At iterate   48    f=  5.73511D-01    |proj g|=  1.06405D-03
+
+At iterate   49    f=  5.73474D-01    |proj g|=  9.64715D-04
+
+At iterate   50    f=  5.73459D-01    |proj g|=  9.48895D-04
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+ 4225     50     55      1     0     0   9.489D-04   5.735D-01
+  F =  0.57345866956470481     
+
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT                 
