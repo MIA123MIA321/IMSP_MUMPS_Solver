@@ -53,11 +53,11 @@ Uniformly, Define $\phi^i$ from $m$ different angles:
 ### Optimization Model
 
 <div align=center>
-<img src="
-https://latex.codecogs.com/svg.image?\begin{aligned}\min&space;_q&space;J_{m,\{k\}}(q)&space;&&space;=\frac{1}{2}&space;\sum_{k&space;\in\{k\}}&space;\sum_{j=0}^{m-1}\left\|M&space;\mathcal{F}_k(q)\left(\phi_j^i\right)-\operatorname{Data}\left(q_t\right)\left(k,&space;\phi_j^i\right)\right\|_2^2&space;\\&&space;\approx&space;\frac{1}{2}&space;\sum_{k&space;\in\{k\}}&space;\sum_{j=0}^{m-1}\left\|M&space;\mathcal{F}_k(q)\left(\phi_j^i\right)-M&space;\mathcal{F}_k\left(q_t\right)\left(\phi_j^i\right)\right\|_2^2&space;\\&&space;=\frac{1}{2}&space;\sum_{k&space;\in\{k\}}&space;k^4&space;\sum_{j=0}^{m-1}\left\|M&space;\mathcal{F}_0(q)\left(q&space;\phi_j^i\right)-M&space;\mathcal{F}_0\left(q_t\right)\left(q_t&space;\phi_j^i\right)\right\|_2^2\end{aligned}">
+<img src="https://latex.codecogs.com/svg.image?\begin{aligned}\min&space;_q&space;J_{m,\{k\}}(q)&space;&&space;=\frac{1}{2}&space;\sum_{k&space;\in\{k\}}&space;\sum_{j=0}^{m-1}\left\|M&space;\mathcal{F}_k(q)\left(\phi_j^i\right)-\operatorname{Data}\left(q_t\right)\left(k,&space;\phi_j^i\right)\right\|_2^2&space;\\&&space;\approx&space;\frac{1}{2}&space;\sum_{k&space;\in\{k\}}&space;\sum_{j=0}^{m-1}\left\|M&space;\mathcal{F}_k(q)\left(\phi_j^i\right)-M&space;\mathcal{F}_k\left(q_t\right)\left(\phi_j^i\right)\right\|_2^2&space;\\&&space;=\frac{1}{2}&space;\sum_{k&space;\in\{k\}}&space;k^4&space;\sum_{j=0}^{m-1}\left\|M&space;\mathcal{F}_0(q)\left(q&space;\phi_j^i\right)-M&space;\mathcal{F}_0\left(q_t\right)\left(q_t&space;\phi_j^i\right)\right\|_2^2\end{aligned}">
 </div>
 
-hh
-
+- $M$ : the matrix to generate $\psi|_{\partial \Omega}$ from $\psi$
+- $q_t$ : the ground truth of the scatterer $q$
+- $\operatorname{Data}(k,q_t)$ : $\psi|_{\partial \Omega}$ aroused by $q_t$ w.r.t. $k$
 
 
