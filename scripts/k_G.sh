@@ -36,7 +36,7 @@ Opt () {
 }
 
 
-DIR='/data/liuziyang/Programs/inversepde/'
+DIR=''
 PYDIR=${DIR}'src/'
 LOGDIR=${DIR}'logs/'
 OUTPUT_LOG=$LOGDIR'output_'$ARGNAME'_'$q_method'.log'
