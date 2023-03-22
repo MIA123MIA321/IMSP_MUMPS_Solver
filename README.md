@@ -47,13 +47,13 @@ Determine the scatter $q(x)$ from the measurements of $\psi|_{\partial \Omega}$
 Uniformly, Define $\phi^i$ from $m$ different angles:  
 
 <div align=center>
-<img src="https://latex.codecogs.com/svg.image?\phi_j^i(x,y)=\exp^{ik(x\cos(\frac{2j}{m})&plus;y\sin(\frac{2j}{m}))},j&space;=&space;0,1,\ldots,m">
+<img src="https://latex.codecogs.com/svg.image?\phi_j^i(x,y)=\exp^{ik(x\cos(\frac{2j}{m})&plus;y\sin(\frac{2j}{m}))},j&space;=&space;0,1,\ldots,m-1">
 </div>
 
 ### Optimization Model
 
 <div align=center>
-<img src="https://latex.codecogs.com/svg.image?\begin{aligned}\min&space;_q&space;J_{m,\{k\}}(q)&space;&&space;=\frac{1}{2}&space;\sum_{k&space;\in\{k\}}&space;\sum_{j=0}^{m-1}\left\|M&space;\mathcal{F}_k(q)\left(\phi_j^i\right)-\operatorname{Data}\left(q_t\right)\left(k,&space;\phi_j^i\right)\right\|_2^2&space;\\&&space;\approx&space;\frac{1}{2}&space;\sum_{k&space;\in\{k\}}&space;\sum_{j=0}^{m-1}\left\|M&space;\mathcal{F}_k(q)\left(\phi_j^i\right)-M&space;\mathcal{F}_k\left(q_t\right)\left(\phi_j^i\right)\right\|_2^2&space;\\&&space;=\frac{1}{2}&space;\sum_{k&space;\in\{k\}}&space;k^4&space;\sum_{j=0}^{m-1}\left\|M&space;\mathcal{F}_0(q)\left(q&space;\phi_j^i\right)-M&space;\mathcal{F}_0\left(q_t\right)\left(q_t&space;\phi_j^i\right)\right\|_2^2\end{aligned}">
+<img src="https://latex.codecogs.com/svg.image?\begin{aligned}\min&space;_q&space;J_{m,\{k\}}(q)&space;&&space;=\frac{1}{2m}&space;\sum_{k&space;\in\{k\}}&space;\sum_{j=0}^{m-1}\left\|M&space;\mathcal{F}_k(q)\left(\phi_j^i\right)-\operatorname{Data}\left(q_t\right)\left(k,&space;\phi_j^i\right)\right\|_2^2&space;\\&&space;\approx&space;\frac{1}{2m}&space;\sum_{k&space;\in\{k\}}&space;\sum_{j=0}^{m-1}\left\|M&space;\mathcal{F}_k(q)\left(\phi_j^i\right)-M&space;\mathcal{F}_k\left(q_t\right)\left(\phi_j^i\right)\right\|_2^2&space;\\&&space;=\frac{1}{2m}&space;\sum_{k&space;\in\{k\}}&space;k^4&space;\sum_{j=0}^{m-1}\left\|M&space;\mathcal{F}_0(q)\left(q&space;\phi_j^i\right)-M&space;\mathcal{F}_0\left(q_t\right)\left(q_t&space;\phi_j^i\right)\right\|_2^2\end{aligned}">
 </div>
 
 - $M$ : the matrix to generate $\psi|_{\partial \Omega}$ from $\psi$
@@ -74,8 +74,9 @@ Uniformly, Define $\phi^i$ from $m$ different angles:
 - k : the frequency of the incident wave
 - m : the number of incident angles
 - maxq : the strength of the scatterer
-- nosielevel : the nosie level of the collected boundary data
-
+- nosielevel : the nosie level of the collected boundary data  
+We use a grid of 64 on $[0,1]^2$ to discrete the problem. The Initial gauess of $q$ is zero.  
+As for **L-BFGS**, we set ```gtol = 1e-10``` and ```maxiter=50```
 ## Usage
 - [MUMPS Install](https://github.com/MIA123MIA321/MUMPS-Install)
 - ```bash scripts/xxx.sh```
