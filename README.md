@@ -58,7 +58,7 @@ Uniformly, Define $\phi^i$ from $m$ different angles:
 
 - $M$ : the matrix to generate $\psi|_{\partial \Omega}$ from $\psi$
 - $q_t$ : the ground truth of the scatterer $q$
-- $\operatorname{Data}(k,q_t)$ : $\psi|_{\partial \Omega}$ aroused by $q_t$ w.r.t. $k$
+- $\operatorname{Data}(q_t)$ : $\psi|_{\partial \Omega}$ aroused by $q_t$
 
 ## Method
 - Solve the Forward problem(PDE) by **Finite Difference Method** to generate the equation and **MUMPS** to solve it
@@ -71,6 +71,13 @@ Uniformly, Define $\phi^i$ from $m$ different angles:
 </div>
 
 ## Parameters
-- 
+- k : the frequency of the incident wave
+- m : the number of incident angles
+- maxq : the strength of the scatterer
+- nosielevel : the nosie level of the collected boundary data
+
+## Usage
+- [MUMPS Install](https://github.com/MIA123MIA321/MUMPS-Install)
+- ```bash scripts/xxx.sh```
 ## Results
 
