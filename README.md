@@ -61,7 +61,7 @@ Uniformly, Define $\phi^i$ from $m$ different angles:
 - $\operatorname{Data}(q_t)$ : $\psi|_{\partial \Omega}$ aroused by $q_t$
 
 ## Method
-- Solve the Forward problem(PDE) by **Finite Difference Method** to generate the equation and **MUMPS** to solve it
+- Solve the Forward problem(PDE) by **FDM** to generate the equation and **MUMPS** to solve it
 - Derive $\frac{\partial \mathscr{F}_k}{\partial q}$ and $\frac{\partial J}{\partial q}$ through **functional analysis** 
 - Use **L-BFGS** to solve the total optimization problem
 
@@ -76,7 +76,7 @@ Uniformly, Define $\phi^i$ from $m$ different angles:
 - maxq : the strength of the scatterer
 - nosielevel : the nosie level of the collected boundary data  
 We use a grid of 64 on $[0,1]^2$ to discrete the problem. The Initial gauess of $q$ is zero.  
-As for **L-BFGS**, we set ```gtol = 1e-10``` and ```maxiter=50```
+As for **L-BFGS**, we set ```gtol = 1e-10``` and ```maxiter=50```.
 ## Usage
 - [MUMPS Install](https://github.com/MIA123MIA321/MUMPS-Install)
 - ```bash scripts/xxx.sh```
