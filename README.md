@@ -14,7 +14,8 @@ MUMPS Solver for the following 2D Inverse medium scattering problem(**IMSP**)
 <div align=center>
 <img src="https://latex.codecogs.com/svg.image?\lim&space;_{r&space;\rightarrow&space;\infty}&space;r^{\frac{1}{2}}\left(\frac{\partial&space;\psi}{\partial&space;r}-i&space;k&space;\psi\right)=0,&space;\quad&space;r=|x|" >
 </div>
-Reduce the problem by an artificial surface:[1](https://www.math.purdue.edu/~lipeijun/paper/2005/Bao_Li_IP_2005.pdf/)  
+Reduce the problem by an artificial surface:  
+[12](www.baidu.com)
 <div align=center>
 <img src="https://latex.codecogs.com/svg.image?\frac{\partial&space;\psi}{\partial&space;\nu}-i&space;k&space;\psi=0,&space;\quad&space;\text&space;{&space;on&space;}&space;\partial&space;\Omega" >
 </div>
