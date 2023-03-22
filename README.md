@@ -60,4 +60,5 @@ Uniformly, Define $\phi^i$ from $m$ different angles:
 - $q_t$ : the ground truth of the scatterer $q$
 - $\operatorname{Data}(k,q_t)$ : $\psi|_{\partial \Omega}$ aroused by $q_t$ w.r.t. $k$
 
+## Results
 
