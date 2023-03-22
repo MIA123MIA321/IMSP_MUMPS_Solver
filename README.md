@@ -60,5 +60,17 @@ Uniformly, Define $\phi^i$ from $m$ different angles:
 - $q_t$ : the ground truth of the scatterer $q$
 - $\operatorname{Data}(k,q_t)$ : $\psi|_{\partial \Omega}$ aroused by $q_t$ w.r.t. $k$
 
+## Method
+- Solve the Forward problem(PDE) by **Finite Difference Method** to generate the equation and **MUMPS** to solve it
+- Derive $\frac{\partial \mathscr{F}_k}{\partial q}$ and $\frac{\partial J}{\partial q}$ through **functional analysis** 
+- Use **L-BFGS** to solve the total optimization problem
+
+## Scatterer
+<div align=center>
+<img src="pic/scatterer.jpg">
+</div>
+
+## Parameters
+- 
 ## Results
 
